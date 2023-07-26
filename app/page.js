@@ -89,10 +89,10 @@ export default function Home() {
       ></div>
       <div className="max-w-screen  min-w fixed left-0 top-0 z-10 max-h-[100lvh] min-h-[100dvh] min-w-full backdrop-blur-[9vmax]"></div>
       <div className=" max-h-[50lvh] col-start-2 col-end-12 bg-black px-4 relative z-40 rounded-md self-center  md:pl-28 lg:col-start-3 lg:col-end-11 xl:col-start-4 xl:col-end-10 flex flex-col pt-12 md:flex-row gap-6 shadow-gray-900 shadow-xl items-center md:pt-0">
-        <div>
+        <div className="min-w-[250px]">
           <h1 className="text-4xl mb-4">We'll be back.</h1>
           <p>
-            We're improving our websites <br /> Please come back soon.
+            We're improving our website <br /> Please come back soon.
           </p>
           <span className="text-white text-6xl"></span>
         </div>
